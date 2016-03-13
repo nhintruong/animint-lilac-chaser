@@ -44,7 +44,7 @@ vi_grid_illusion <- function(
 
     # Display using animint
     plots <- list(plot1 = p1)
-    viz <- animint2dir(plots, out.dir = paste("vi_grid", type))
+    viz <- animint2dir(plots, out.dir = paste("vi_grid", type[1], sep = "_"))
 
 
     ## Testing using testthat
