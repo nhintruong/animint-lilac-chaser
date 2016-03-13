@@ -1,7 +1,6 @@
 library(ggplot2)
 library(animint)
 
-
 ## Load the data
 load("./cars_data.Rda")
 
@@ -35,5 +34,8 @@ draw_viz <- function(){
 
 
     animint2dir(plot.list = plots, out.dir = "easy_viz")
-    animint2gist(plot.list = plots, out.dir = "easy_viz")
+    animint2gist(plot.list = plots,
+                 description = "Cars data visualization",
+                 browse = TRUE,
+                 out.dir = "easy_viz")
 }

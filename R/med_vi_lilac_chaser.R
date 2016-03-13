@@ -50,6 +50,9 @@ vi_lilac_chaser <- function(np = 10,
     plots$time <- list(variable = "ptn", ms = 150)
     plots$duration <- list(ptn=0)
     animint2dir(plots, out.dir = "vi_lilac")
-
+    animint2gist(plot.list = plots,
+                 description = "Lilac Chaser Visual Illusion",
+                 browse = TRUE,
+                 out.dir = "vi_lilac")
     invisible(NULL)
 }
