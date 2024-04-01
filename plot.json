@@ -1,0 +1,246 @@
+{
+ "geoms": {
+ "geom1_point_plot1": {
+ "geom": "point",
+"classed": "geom1_point_plot1",
+"aes": {
+ "x": "sinv",
+"y": "cosv",
+"showSelected1": "ptn" 
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#FF00FF",
+"size":       20,
+"showSelected": "ptn" 
+},
+"types": {
+ "x": "numeric",
+"y": "numeric",
+"showSelected1": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1 
+},
+"geom2_segment_plot1": {
+ "geom": "segment",
+"classed": "geom2_segment_plot1",
+"aes": {
+ "x": "-0.1",
+"y": "0",
+"xend": "0.1",
+"yend": "0" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"size":        4 
+},
+"types": {
+ "x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+},
+"geom3_segment_plot1": {
+ "geom": "segment",
+"classed": "geom3_segment_plot1",
+"aes": {
+ "x": "0",
+"y": "-0.1",
+"xend": "0",
+"yend": "0.1" 
+},
+"params": {
+ "lineend": "butt",
+"na.rm": false,
+"na.rm": false,
+"size":        4 
+},
+"types": {
+ "x": "numeric",
+"xend": "numeric",
+"y": "numeric",
+"yend": "numeric",
+"PANEL": "integer",
+"group": "character" 
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1 
+} 
+},
+"time": {
+ "variable": "ptn",
+"ms":      150,
+"sequence": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ] 
+},
+"duration": {
+ "ptn":        0 
+},
+"selectors": {
+ "ptn": {
+ "is.variable.value": false,
+"type": "single",
+"showSelected": true,
+"selected": "1",
+"levels": [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" ],
+"update": [
+ "geom1_point_plot1" 
+],
+"duration":        0 
+} 
+},
+"plots": {
+ "plot1": {
+ "panel_margin_lines":     0.27,
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": [],
+"panel_border": [],
+"grid_major": {
+ "loc": {
+ "x": [
+ [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1 
+] 
+],
+"y": [
+ [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "loc": {
+ "x": [
+ [
+    -1.25,
+      -1,
+   -0.75,
+    -0.5,
+   -0.25,
+       0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25 
+] 
+],
+"y": [
+ [
+    -1.25,
+      -1,
+   -0.75,
+    -0.5,
+   -0.25,
+       0,
+    0.25,
+     0.5,
+    0.75,
+       1,
+    1.25 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1 
+],
+"xrange": [   -1.463,    1.463 ],
+"xline": false,
+"xticks": false,
+"y": [
+       -1,
+    -0.5,
+       0,
+     0.5,
+       1 
+],
+"yrange": [   -1.463,    1.463 ],
+"yline": false,
+"yticks": false 
+},
+"xtitle": "",
+"strip_text_xsize": "12pt",
+"xsize": "pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "",
+"strip_text_ysize": "12pt",
+"ysize": "pt",
+"yangle":        0,
+"yanchor": "middle",
+"xlabs": [],
+"ylabs": [],
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"geoms": [
+ "geom1_point_plot1",
+"geom2_segment_plot1",
+"geom3_segment_plot1" 
+] 
+} 
+} 
+}
